@@ -47,4 +47,4 @@ jobs:
       - name: Build
         run: dotnet build --no-restore -c Release
       - name: Publish TakasakiStudio.PuppeteerExtraSharp to Nuget
-        run: dotnet nuget push "./PuppeteerExtraSharp/bin/Release/*.nupkg" --api-key ${{ secrets.SECRET }} --source "nuget.org"
+        run: dotnet nuget push "./bin/Release/*.nupkg" --api-key ${{ secrets.SECRET }} --source "nuget.org"
