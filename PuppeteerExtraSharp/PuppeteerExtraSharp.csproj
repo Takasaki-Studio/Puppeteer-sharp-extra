@@ -15,6 +15,7 @@
     <Description>A fork of PuppeterExtraSharp to support the newest version of PuppeteerSharp. PuppeteerExtraSharp is a .NET port of the Node.js library, providing useful extensions for Puppeteer.</Description>
     <Copyright>TakasakiStudio, Overmiind</Copyright>
     <Authors>TakasakiStudio, PuppeteerExtraSharp</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
